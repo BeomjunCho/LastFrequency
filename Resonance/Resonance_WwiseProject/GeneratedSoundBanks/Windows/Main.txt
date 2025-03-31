@@ -1,0 +1,7 @@
+Event	ID	Name			Wwise Object Path	Notes
+	202194903	Music_Play			\Default Work Unit\Music_Play	
+	3227181061	Music_Stop			\Default Work Unit\Music_Stop	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	802194316	Test_Music	C:\GitHub_Projects\LastFrequency\Resonance\Resonance_WwiseProject\.cache\76\{760B4564-3332-141D-9DD3-6CC8C9E4C000}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Test_Music		2419296
+

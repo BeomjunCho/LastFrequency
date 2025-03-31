@@ -14,7 +14,7 @@
 # Compiled Dynamic libraries
 *.so
 *.dylib
-*.dll
+#*.dll
 
 # Fortran module files
 *.mod
@@ -23,7 +23,7 @@
 *.lai
 *.la
 *.a
-*.lib
+#*.lib
 
 # Executables
 *.exe
@@ -72,3 +72,7 @@ Plugins/**/Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
+
+# Don't ignore Wwise .dll and .lib files as these are needed for compiling
+!Plugins/Wwise/*.dll
+!Plugins/Wwise/*.lib

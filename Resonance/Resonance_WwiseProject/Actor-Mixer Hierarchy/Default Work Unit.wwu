@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{809D69ED-012B-4061-AA7F-BDC930CBC8BA}" SchemaVersion="123">
+	<AudioObjects>
+		<WorkUnit Name="Default Work Unit" ID="{809D69ED-012B-4061-AA7F-BDC930CBC8BA}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="Test_Music" ID="{FA6DCE90-20E6-4A0F-8D29-59D47B0C2D7C}" ShortID="101822812">
+					<PropertyList>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B60FCC18-547C-440C-B6DD-51E812FD1F7F}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{14796E88-2CA2-456A-A761-5AF182F1C2FB}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Test_Music" ID="{BE6F0238-253C-44A1-9A41-634787DAE0CE}">
+							<Language>SFX</Language>
+							<AudioFile>Test_Music.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="802194316"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Test_Music" ID="{BE6F0238-253C-44A1-9A41-634787DAE0CE}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

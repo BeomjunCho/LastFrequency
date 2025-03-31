@@ -1,0 +1,55 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "3161908922",
+    "Type": "User",
+    "GUID": "{CD688E30-6B68-4EDB-98E9-D9BA959BA4D2}",
+    "Language": "SFX",
+    "Hash": "{AE5D62F8-30F0-FA4D-E5FE-57AE44F58AF2}",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
+    "ShortName": "Main",
+    "Path": "Main.bnk",
+    "Media": [
+     {
+      "Id": "802194316",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Test_Music.wav",
+      "CachePath": "76/{760B4564-3332-141D-9DD3-6CC8C9E4C000}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "202194903",
+      "Name": "Music_Play",
+      "ObjectPath": "\\Events\\Default Work Unit\\Music_Play",
+      "GUID": "{173F1420-7DF0-4F0C-A99D-66EAD5C9EC48}",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "802194316"
+       }
+      ]
+     },
+     {
+      "Id": "3227181061",
+      "Name": "Music_Stop",
+      "ObjectPath": "\\Events\\Default Work Unit\\Music_Stop",
+      "GUID": "{F3DBB347-94D5-4EFE-BB36-B06AAEA4C809}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     }
+    ]
+   }
+  ],
+  "FileHash": "{D56CC6C9-E5F9-19DE-B9BC-195D5BB93E72}"
+ }
+}
