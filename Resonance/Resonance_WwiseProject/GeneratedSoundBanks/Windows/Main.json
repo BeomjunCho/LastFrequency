@@ -10,11 +10,19 @@
     "Type": "User",
     "GUID": "{CD688E30-6B68-4EDB-98E9-D9BA959BA4D2}",
     "Language": "SFX",
-    "Hash": "{AE5D62F8-30F0-FA4D-E5FE-57AE44F58AF2}",
+    "Hash": "{54FE3E8D-8A02-1DB4-1F8B-BDF965C7A96F}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
     "ShortName": "Main",
     "Path": "Main.bnk",
     "Media": [
+     {
+      "Id": "675559350",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "AudioPuzzle1_Demo_Line.wav",
+      "CachePath": "B7/{B7654EC5-D648-7C30-9BDB-604BE13FC818}.wem"
+     },
      {
       "Id": "802194316",
       "Language": "SFX",
@@ -24,11 +32,23 @@
       "CachePath": "76/{760B4564-3332-141D-9DD3-6CC8C9E4C000}.wem"
      }
     ],
+    "Plugins": {
+     "ShareSets": [
+      {
+       "Id": "949863463",
+       "Name": "Many_Even_Harm_Notches",
+       "ObjectPath": "\\Effects\\Factory Effects\\Flanger\\Static Comb Filtering\\Many_Even_Harm_Notches",
+       "GUID": "{A7113535-F7D6-4B83-9DCB-01DD88295F76}",
+       "LibName": "Wwise Flanger",
+       "LibId": "8192003"
+      }
+     ]
+    },
     "Events": [
      {
       "Id": "202194903",
       "Name": "Music_Play",
-      "ObjectPath": "\\Events\\Default Work Unit\\Music_Play",
+      "ObjectPath": "\\Events\\Default Work Unit\\Test\\Music_Play",
       "GUID": "{173F1420-7DF0-4F0C-A99D-66EAD5C9EC48}",
       "DurationType": "Infinite",
       "MediaRefs": [
@@ -40,8 +60,37 @@
      {
       "Id": "3227181061",
       "Name": "Music_Stop",
-      "ObjectPath": "\\Events\\Default Work Unit\\Music_Stop",
+      "ObjectPath": "\\Events\\Default Work Unit\\Test\\Music_Stop",
       "GUID": "{F3DBB347-94D5-4EFE-BB36-B06AAEA4C809}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
+      "Id": "1908115431",
+      "Name": "Puzzle1_Play",
+      "ObjectPath": "\\Events\\Default Work Unit\\Puzzle\\Puzzle1_Play",
+      "GUID": "{9F174DCF-7D17-4881-BF09-30C7D8A63426}",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "675559350"
+       }
+      ],
+      "PluginRefs": {
+       "ShareSets": [
+        {
+         "Id": "949863463"
+        }
+       ]
+      }
+     },
+     {
+      "Id": "601780533",
+      "Name": "Puzzle1_Stop",
+      "ObjectPath": "\\Events\\Default Work Unit\\Puzzle\\Puzzle1_Stop",
+      "GUID": "{DEA73319-0D3E-449F-92E6-D2AEC6A847C9}",
       "MaxAttenuation": "0",
       "DurationType": "OneShot",
       "DurationMin": "0",
@@ -50,6 +99,6 @@
     ]
    }
   ],
-  "FileHash": "{367B8AD2-2D9A-15E2-0658-CF8E7E735774}"
+  "FileHash": "{83C24945-F21A-2EA6-1775-B5A211F7BE21}"
  }
 }
