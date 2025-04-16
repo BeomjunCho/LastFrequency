@@ -4,10 +4,13 @@ Event	ID	Name			Wwise Object Path	Notes
 	1908115431	Puzzle1_Play			\Default Work Unit\Puzzle\Puzzle1_Play	
 	3227181061	Music_Stop			\Default Work Unit\Test\Music_Stop	
 
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	843859152	AudioProcess			\Default Work Unit\AudioProcess	
+
 Effect plug-ins	ID	Name	Type				Notes
 	949863463	Many_Even_Harm_Notches	Wwise Flanger			
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	675559350	AudioPuzzle1_Demo_Line	C:\GitHub_Projects\LastFrequency\Resonance\Resonance_WwiseProject\.cache\B7\{B7654EC5-D648-7C30-9BDB-604BE13FC818}.wem		\Actor-Mixer Hierarchy\Default Work Unit\AudioPuzzle1\AudioPuzzle1_Demo_Line		290400
+	675559350	AudioPuzzle1_Demo_Line	C:\GitHub_Projects\LastFrequency\Resonance\Resonance_WwiseProject\.cache\75\{75A3A746-21B9-6599-6E95-FE0250D890BB}.wem		\Actor-Mixer Hierarchy\Default Work Unit\AudioPuzzle1\AudioPuzzle1_Demo_Line		247568
 	802194316	Test_Music	C:\GitHub_Projects\LastFrequency\Resonance\Resonance_WwiseProject\.cache\76\{760B4564-3332-141D-9DD3-6CC8C9E4C000}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Test\Test_Music		2419296
 

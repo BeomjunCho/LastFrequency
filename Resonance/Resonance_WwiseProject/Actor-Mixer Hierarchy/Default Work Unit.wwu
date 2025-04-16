@@ -53,6 +53,12 @@
 							</ReferenceList>
 							<ChildrenList>
 								<AudioFileSource Name="AudioPuzzle1_Demo_Line" ID="{37221D74-AF46-4160-99AF-DC577AC7A52E}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.0863325525502689"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.0755409834814854"/>
+										<Property Name="TrimEnd" Type="Real64" Value="2.88134894681479"/>
+									</PropertyList>
 									<Language>SFX</Language>
 									<AudioFile>AudioPuzzle1_Demo_Line.wav</AudioFile>
 									<MediaIDList>
@@ -71,6 +77,143 @@
 													</Reference>
 												</ReferenceList>
 											</EffectSlot>
+										</Local>
+									</Reference>
+								</ObjectList>
+								<ObjectList Name="RTPC">
+									<Reference>
+										<Local>
+											<RTPC Name="" ID="{0949BE1F-4250-459F-91D1-49CCD340EF5B}" ShortID="318355938">
+												<PropertyList>
+													<Property Name="PropertyName" Type="string" Value="Pitch"/>
+												</PropertyList>
+												<ReferenceList>
+													<Reference Name="ControlInput">
+														<ObjectRef Name="AudioProcess" ID="{6EF9D18B-CA7F-4925-88DC-9139B3A31978}" WorkUnitID="{184F6127-B859-4E15-AE4A-5837A263CCD5}"/>
+													</Reference>
+													<Reference Name="Curve">
+														<Custom>
+															<Curve Name="" ID="{3C8D69DF-10B8-4E40-8B86-26798D55E5EF}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="65537"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>0</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>0.09641</XPos>
+																		<YPos>-568</YPos>
+																		<Flags>0</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>0.24386</XPos>
+																		<YPos>-1953</YPos>
+																		<Flags>0</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>0.41399</XPos>
+																		<YPos>-1125</YPos>
+																		<Flags>0</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>0.59357</XPos>
+																		<YPos>-1803</YPos>
+																		<Flags>0</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>0.76181</XPos>
+																		<YPos>-1182</YPos>
+																		<Flags>0</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>0.91871</XPos>
+																		<YPos>-2330</YPos>
+																		<Flags>0</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>1</XPos>
+																		<YPos>0</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</Custom>
+													</Reference>
+												</ReferenceList>
+											</RTPC>
+										</Local>
+									</Reference>
+									<Reference>
+										<Local>
+											<RTPC Name="" ID="{975158A6-B919-4518-944C-63882F28B60D}" ShortID="626293979">
+												<PropertyList>
+													<Property Name="PropertyName" Type="string" Value="Volume"/>
+												</PropertyList>
+												<ReferenceList>
+													<Reference Name="ControlInput">
+														<ObjectRef Name="AudioProcess" ID="{6EF9D18B-CA7F-4925-88DC-9139B3A31978}" WorkUnitID="{184F6127-B859-4E15-AE4A-5837A263CCD5}"/>
+													</Reference>
+													<Reference Name="Curve">
+														<Custom>
+															<Curve Name="" ID="{EB18695A-B20A-4A47-83DE-2577AE60AD26}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="3"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>0</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>0.13553</XPos>
+																		<YPos>-5.93242</YPos>
+																		<Flags>0</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>0.27221</XPos>
+																		<YPos>-0.46405</YPos>
+																		<Flags>0</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>0.38563</XPos>
+																		<YPos>-4.67449</YPos>
+																		<Flags>0</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>0.49905</XPos>
+																		<YPos>-0.46405</YPos>
+																		<Flags>0</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>0.65217</XPos>
+																		<YPos>-5.5801</YPos>
+																		<Flags>0</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>0.76371</XPos>
+																		<YPos>-2.4155</YPos>
+																		<Flags>0</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>0.88469</XPos>
+																		<YPos>-5.04419</YPos>
+																		<Flags>0</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>1</XPos>
+																		<YPos>-0.89843</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</Custom>
+													</Reference>
+												</ReferenceList>
+											</RTPC>
 										</Local>
 									</Reference>
 								</ObjectList>

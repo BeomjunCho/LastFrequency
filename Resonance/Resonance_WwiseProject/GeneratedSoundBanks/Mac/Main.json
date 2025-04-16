@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{CD688E30-6B68-4EDB-98E9-D9BA959BA4D2}",
     "Language": "SFX",
-    "Hash": "{54FE3E8D-8A02-1DB4-1F8B-BDF965C7A96F}",
+    "Hash": "{75208FF0-1248-CD81-BBB5-0C1BD6F5F484}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
     "ShortName": "Main",
     "Path": "Main.bnk",
@@ -21,7 +21,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "AudioPuzzle1_Demo_Line.wav",
-      "CachePath": "B7/{B7654EC5-D648-7C30-9BDB-604BE13FC818}.wem"
+      "CachePath": "75/{75A3A746-21B9-6599-6E95-FE0250D890BB}.wem"
      },
      {
       "Id": "802194316",
@@ -96,9 +96,17 @@
       "DurationMin": "0",
       "DurationMax": "0"
      }
+    ],
+    "GameParameters": [
+     {
+      "Id": "843859152",
+      "Name": "AudioProcess",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\AudioProcess",
+      "GUID": "{6EF9D18B-CA7F-4925-88DC-9139B3A31978}"
+     }
     ]
    }
   ],
-  "FileHash": "{5ED09CCF-79F1-BDA3-376D-6FEADC65FDFC}"
+  "FileHash": "{42087094-4E36-3729-7214-A66892D7D4D7}"
  }
 }
