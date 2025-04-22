@@ -32,7 +32,7 @@
 						</Event>
 					</ChildrenList>
 				</Folder>
-				<Folder Name="Puzzle" ID="{0EFD4264-89F5-4E70-AA9D-0304B637C8E5}" ShortID="176027850">
+				<Folder Name="Puzzle1" ID="{0EFD4264-89F5-4E70-AA9D-0304B637C8E5}" ShortID="176027850">
 					<ChildrenList>
 						<Event Name="Puzzle1_Play" ID="{9F174DCF-7D17-4881-BF09-30C7D8A63426}">
 							<ChildrenList>
@@ -54,6 +54,65 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="AudioPuzzle1_Demo_Line" ID="{EA21BAF4-3A3C-4780-A1F9-735087318942}" WorkUnitID="{809D69ED-012B-4061-AA7F-BDC930CBC8BA}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Puzzle2" ID="{8A5E5DA8-B834-4FB1-BF96-12304ECF0108}" ShortID="878695579">
+					<ChildrenList>
+						<Event Name="Puzzle2_Music_Play" ID="{C7EA4E72-24BB-4D2B-9C32-354D5B5E2144}">
+							<ChildrenList>
+								<Action Name="" ID="{A2174A6A-7985-4508-B7BC-FCD37D4E9C75}" ShortID="757461450">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="WashingMachineMelody" ID="{4320FC09-5D1C-427F-8ACA-28DB1B896880}" WorkUnitID="{809D69ED-012B-4061-AA7F-BDC930CBC8BA}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Puzzle2_Chunk_Play_01" ID="{0B9355FC-BC26-47CE-B35B-F60B6551B9B9}">
+							<ChildrenList>
+								<Action Name="" ID="{F61083B0-204D-4C4E-A92A-C5E821352E22}" ShortID="23926853">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="MusicChunk1" ID="{BC9129C9-8410-4753-91E2-34F9C88B6181}" WorkUnitID="{809D69ED-012B-4061-AA7F-BDC930CBC8BA}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Puzzle2_Chunk_Play_02" ID="{C8FDA663-D784-407A-BBC4-00C7A186E341}">
+							<ChildrenList>
+								<Action Name="" ID="{FC388794-FC52-4643-8374-7FA46CBFEC63}" ShortID="780099724">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="MusicChunk2" ID="{3804902C-F257-4934-A65C-2AD866D930CF}" WorkUnitID="{809D69ED-012B-4061-AA7F-BDC930CBC8BA}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Puzzle2_Chunk_Play_03" ID="{0EC84283-A9A3-4799-8C46-550A43AA2AD5}">
+							<ChildrenList>
+								<Action Name="" ID="{A4093C58-4CE1-446B-A216-09FC7D70CB99}" ShortID="156529005">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="MusicChunk3" ID="{04C23DB9-3992-4913-8779-1851E0239486}" WorkUnitID="{809D69ED-012B-4061-AA7F-BDC930CBC8BA}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Puzzle2_Chunk_Play_04" ID="{26A68741-B962-4E61-8055-A9386F2D0D84}">
+							<ChildrenList>
+								<Action Name="" ID="{6734987B-92B1-42B8-9B66-3DD06DFA9C41}" ShortID="798940308">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="MusicChunk4" ID="{A516ADCB-EF40-49DB-A51C-8A42F4A32551}" WorkUnitID="{809D69ED-012B-4061-AA7F-BDC930CBC8BA}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>

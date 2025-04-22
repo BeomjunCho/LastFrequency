@@ -224,6 +224,120 @@
 						</Sound>
 					</ChildrenList>
 				</Folder>
+				<Folder Name="AudioPuzzle2" ID="{180C896D-45B4-4D2A-9E68-9F9D72CF44EF}" ShortID="176541823">
+					<ChildrenList>
+						<Sound Name="MusicChunk1" ID="{BC9129C9-8410-4753-91E2-34F9C88B6181}" ShortID="333149018">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B60FCC18-547C-440C-B6DD-51E812FD1F7F}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{14796E88-2CA2-456A-A761-5AF182F1C2FB}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="MusicChunk1" ID="{6994DC13-55AF-46F4-9E7F-D0C70D052522}">
+									<Language>SFX</Language>
+									<AudioFile>MusicChunk1.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="942732299"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="MusicChunk1" ID="{6994DC13-55AF-46F4-9E7F-D0C70D052522}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="MusicChunk2" ID="{3804902C-F257-4934-A65C-2AD866D930CF}" ShortID="455495279">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B60FCC18-547C-440C-B6DD-51E812FD1F7F}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{14796E88-2CA2-456A-A761-5AF182F1C2FB}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="MusicChunk2" ID="{389FA6A2-223C-45CE-86F0-E91472F8D294}">
+									<Language>SFX</Language>
+									<AudioFile>MusicChunk2.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="97078704"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="MusicChunk2" ID="{389FA6A2-223C-45CE-86F0-E91472F8D294}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="MusicChunk3" ID="{04C23DB9-3992-4913-8779-1851E0239486}" ShortID="453548574">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B60FCC18-547C-440C-B6DD-51E812FD1F7F}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{14796E88-2CA2-456A-A761-5AF182F1C2FB}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="MusicChunk3" ID="{EB7CEAEB-1056-4409-B455-2DD06FAFD619}">
+									<Language>SFX</Language>
+									<AudioFile>MusicChunk3.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="966527388"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="MusicChunk3" ID="{EB7CEAEB-1056-4409-B455-2DD06FAFD619}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="MusicChunk4" ID="{A516ADCB-EF40-49DB-A51C-8A42F4A32551}" ShortID="107988001">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B60FCC18-547C-440C-B6DD-51E812FD1F7F}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{14796E88-2CA2-456A-A761-5AF182F1C2FB}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="MusicChunk4" ID="{19E799CA-093D-43C5-9116-E201F731C8CF}">
+									<Language>SFX</Language>
+									<AudioFile>MusicChunk4.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="230052113"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="MusicChunk4" ID="{19E799CA-093D-43C5-9116-E201F731C8CF}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="WashingMachineMelody" ID="{4320FC09-5D1C-427F-8ACA-28DB1B896880}" ShortID="364833754">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B60FCC18-547C-440C-B6DD-51E812FD1F7F}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{14796E88-2CA2-456A-A761-5AF182F1C2FB}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="WashingMachineMelody" ID="{27F849BA-DAEE-46A2-BA02-180BA72D884A}">
+									<Language>SFX</Language>
+									<AudioFile>WashingMachineMelody.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="852127807"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="WashingMachineMelody" ID="{27F849BA-DAEE-46A2-BA02-180BA72D884A}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

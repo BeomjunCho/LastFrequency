@@ -10,18 +10,34 @@
     "Type": "User",
     "GUID": "{CD688E30-6B68-4EDB-98E9-D9BA959BA4D2}",
     "Language": "SFX",
-    "Hash": "{75208FF0-1248-CD81-BBB5-0C1BD6F5F484}",
+    "Hash": "{863250E3-E497-7D55-D6EF-940BEEBF62C7}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
     "ShortName": "Main",
     "Path": "Main.bnk",
     "Media": [
+     {
+      "Id": "97078704",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "MusicChunk2.wav",
+      "CachePath": "68/{68564BCA-4E2F-C948-13CA-B9E7B9E20E63}.wem"
+     },
+     {
+      "Id": "230052113",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "MusicChunk4.wav",
+      "CachePath": "29/{292DA28C-B65A-D63E-13B5-2114B2E1F59C}.wem"
+     },
      {
       "Id": "675559350",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "AudioPuzzle1_Demo_Line.wav",
-      "CachePath": "75/{75A3A746-21B9-6599-6E95-FE0250D890BB}.wem"
+      "CachePath": "DA/{DA41FABE-0247-4EA2-76E9-14C984484DC5}.wem"
      },
      {
       "Id": "802194316",
@@ -30,6 +46,30 @@
       "Location": "Memory",
       "ShortName": "Test_Music.wav",
       "CachePath": "76/{760B4564-3332-141D-9DD3-6CC8C9E4C000}.wem"
+     },
+     {
+      "Id": "852127807",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "WashingMachineMelody.wav",
+      "CachePath": "ED/{EDF7FDC2-B18D-9C90-945F-8C56DF740B56}.wem"
+     },
+     {
+      "Id": "942732299",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "MusicChunk1.wav",
+      "CachePath": "31/{31141584-CC00-FC81-B862-00C8E6731E9D}.wem"
+     },
+     {
+      "Id": "966527388",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "MusicChunk3.wav",
+      "CachePath": "CA/{CA0DEEDA-D62A-11B3-C821-1019C18EBEDA}.wem"
      }
     ],
     "Plugins": {
@@ -70,7 +110,7 @@
      {
       "Id": "1908115431",
       "Name": "Puzzle1_Play",
-      "ObjectPath": "\\Events\\Default Work Unit\\Puzzle\\Puzzle1_Play",
+      "ObjectPath": "\\Events\\Default Work Unit\\Puzzle1\\Puzzle1_Play",
       "GUID": "{9F174DCF-7D17-4881-BF09-30C7D8A63426}",
       "DurationType": "Infinite",
       "MediaRefs": [
@@ -89,12 +129,82 @@
      {
       "Id": "601780533",
       "Name": "Puzzle1_Stop",
-      "ObjectPath": "\\Events\\Default Work Unit\\Puzzle\\Puzzle1_Stop",
+      "ObjectPath": "\\Events\\Default Work Unit\\Puzzle1\\Puzzle1_Stop",
       "GUID": "{DEA73319-0D3E-449F-92E6-D2AEC6A847C9}",
       "MaxAttenuation": "0",
       "DurationType": "OneShot",
       "DurationMin": "0",
       "DurationMax": "0"
+     },
+     {
+      "Id": "3491070398",
+      "Name": "Puzzle2_Chunk_Play_01",
+      "ObjectPath": "\\Events\\Default Work Unit\\Puzzle2\\Puzzle2_Chunk_Play_01",
+      "GUID": "{0B9355FC-BC26-47CE-B35B-F60B6551B9B9}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.3005625",
+      "DurationMax": "1.3005625",
+      "MediaRefs": [
+       {
+        "Id": "942732299"
+       }
+      ]
+     },
+     {
+      "Id": "3491070397",
+      "Name": "Puzzle2_Chunk_Play_02",
+      "ObjectPath": "\\Events\\Default Work Unit\\Puzzle2\\Puzzle2_Chunk_Play_02",
+      "GUID": "{C8FDA663-D784-407A-BBC4-00C7A186E341}",
+      "DurationType": "OneShot",
+      "DurationMin": "2.0850832",
+      "DurationMax": "2.0850832",
+      "MediaRefs": [
+       {
+        "Id": "97078704"
+       }
+      ]
+     },
+     {
+      "Id": "3491070396",
+      "Name": "Puzzle2_Chunk_Play_03",
+      "ObjectPath": "\\Events\\Default Work Unit\\Puzzle2\\Puzzle2_Chunk_Play_03",
+      "GUID": "{0EC84283-A9A3-4799-8C46-550A43AA2AD5}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.8163333",
+      "DurationMax": "1.8163333",
+      "MediaRefs": [
+       {
+        "Id": "966527388"
+       }
+      ]
+     },
+     {
+      "Id": "3491070395",
+      "Name": "Puzzle2_Chunk_Play_04",
+      "ObjectPath": "\\Events\\Default Work Unit\\Puzzle2\\Puzzle2_Chunk_Play_04",
+      "GUID": "{26A68741-B962-4E61-8055-A9386F2D0D84}",
+      "DurationType": "OneShot",
+      "DurationMin": "2.1606667",
+      "DurationMax": "2.1606667",
+      "MediaRefs": [
+       {
+        "Id": "230052113"
+       }
+      ]
+     },
+     {
+      "Id": "4144980586",
+      "Name": "Puzzle2_Music_Play",
+      "ObjectPath": "\\Events\\Default Work Unit\\Puzzle2\\Puzzle2_Music_Play",
+      "GUID": "{C7EA4E72-24BB-4D2B-9C32-354D5B5E2144}",
+      "DurationType": "OneShot",
+      "DurationMin": "7.3739166",
+      "DurationMax": "7.3739166",
+      "MediaRefs": [
+       {
+        "Id": "852127807"
+       }
+      ]
      }
     ],
     "GameParameters": [
@@ -107,6 +217,6 @@
     ]
    }
   ],
-  "FileHash": "{08D6FF8B-66F7-F8E0-935B-2AFAD387F629}"
+  "FileHash": "{083D64C5-6346-A03A-1BA8-7509E1912494}"
  }
 }
