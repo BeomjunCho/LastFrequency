@@ -1,7 +1,26 @@
 Event	ID	Name			Wwise Object Path	Notes
-	202194903	Music_Play			\Default Work Unit\Music_Play	
-	3227181061	Music_Stop			\Default Work Unit\Music_Stop	
+	202194903	Music_Play			\Default Work Unit\Test\Music_Play	
+	601780533	Puzzle1_Stop			\Default Work Unit\Puzzle1\Puzzle1_Stop	
+	1908115431	Puzzle1_Play			\Default Work Unit\Puzzle1\Puzzle1_Play	
+	3227181061	Music_Stop			\Default Work Unit\Test\Music_Stop	
+	3491070395	Puzzle2_Chunk_Play_04			\Default Work Unit\Puzzle2\Puzzle2_Chunk_Play_04	
+	3491070396	Puzzle2_Chunk_Play_03			\Default Work Unit\Puzzle2\Puzzle2_Chunk_Play_03	
+	3491070397	Puzzle2_Chunk_Play_02			\Default Work Unit\Puzzle2\Puzzle2_Chunk_Play_02	
+	3491070398	Puzzle2_Chunk_Play_01			\Default Work Unit\Puzzle2\Puzzle2_Chunk_Play_01	
+	4144980586	Puzzle2_Music_Play			\Default Work Unit\Puzzle2\Puzzle2_Music_Play	
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	843859152	AudioProcess			\Default Work Unit\AudioProcess	
+
+Effect plug-ins	ID	Name	Type				Notes
+	949863463	Many_Even_Harm_Notches	Wwise Flanger			
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	802194316	Test_Music	C:\GitHub_Projects\LastFrequency\Resonance\Resonance_WwiseProject\.cache\76\{760B4564-3332-141D-9DD3-6CC8C9E4C000}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Test_Music		2419296
+	97078704	MusicChunk2	C:\GitHub_Projects\LastFrequency\Resonance\Resonance_WwiseProject\.cache\68\{68564BCA-4E2F-C948-13CA-B9E7B9E20E63}.wem		\Actor-Mixer Hierarchy\Default Work Unit\AudioPuzzle2\MusicChunk2		200264
+	230052113	MusicChunk4	C:\GitHub_Projects\LastFrequency\Resonance\Resonance_WwiseProject\.cache\29\{292DA28C-B65A-D63E-13B5-2114B2E1F59C}.wem		\Actor-Mixer Hierarchy\Default Work Unit\AudioPuzzle2\MusicChunk4		207520
+	675559350	AudioPuzzle1_Demo_Line	C:\GitHub_Projects\LastFrequency\Resonance\Resonance_WwiseProject\.cache\DA\{DA41FABE-0247-4EA2-76E9-14C984484DC5}.wem		\Actor-Mixer Hierarchy\Default Work Unit\AudioPuzzle1\AudioPuzzle1_Demo_Line		247568
+	802194316	Test_Music	C:\GitHub_Projects\LastFrequency\Resonance\Resonance_WwiseProject\.cache\76\{760B4564-3332-141D-9DD3-6CC8C9E4C000}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Test\Test_Music		2419296
+	852127807	WashingMachineMelody	C:\GitHub_Projects\LastFrequency\Resonance\Resonance_WwiseProject\.cache\ED\{EDF7FDC2-B18D-9C90-945F-8C56DF740B56}.wem		\Actor-Mixer Hierarchy\Default Work Unit\AudioPuzzle2\WashingMachineMelody		707992
+	942732299	MusicChunk1	C:\GitHub_Projects\LastFrequency\Resonance\Resonance_WwiseProject\.cache\31\{31141584-CC00-FC81-B862-00C8E6731E9D}.wem		\Actor-Mixer Hierarchy\Default Work Unit\AudioPuzzle2\MusicChunk1		124950
+	966527388	MusicChunk3	C:\GitHub_Projects\LastFrequency\Resonance\Resonance_WwiseProject\.cache\CA\{CA0DEEDA-D62A-11B3-C821-1019C18EBEDA}.wem		\Actor-Mixer Hierarchy\Default Work Unit\AudioPuzzle2\MusicChunk3		174464
 
